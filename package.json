@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Josue9405/fizzbuzz#readme",
   "devDependencies": {
+    "eslint": "^8.14.0",
     "jest": "^26.0.1"
   }
 }
