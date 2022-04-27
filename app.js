@@ -7,9 +7,10 @@ console.log('Lista completa')
 console.log(explorers)
 
 console.log('Miembros de Node')
-// Part 2: Get the quantity of explorers names in node
+
 console.log(explorerService.filterByMission(explorers,"node"))
-//console.log(explorersInNode.length)
+console.log('Total de elementos en Node')
+console.log(explorerService.getAmountOfExplorersByMission(explorers,"node"))
 
 // Part4: Get the explorer's usernames in Node
 const explorersInNodeToGetUsernames = explorers.filter((explorer) => explorer.mission == "node");
