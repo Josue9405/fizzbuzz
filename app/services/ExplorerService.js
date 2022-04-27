@@ -4,7 +4,11 @@ class ExplorerService{
     }
 
     static getAmountOfExplorersByMission(explorers, mission){
-        return explorers.filter((explorer) => explorer.mission == mission).length
+        return this.filterByMission(explorers,mission).length
+    }
+
+    static getExplorersUsernamesByMission(explorers, mission){
+        return this.filterByMission(explorers, mission).map((explorer) => explorer.githubUsername);
     }
 }
 

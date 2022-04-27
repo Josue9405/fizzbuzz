@@ -12,10 +12,8 @@ console.log(explorerService.filterByMission(explorers,"node"))
 console.log('Total de elementos en Node')
 console.log(explorerService.getAmountOfExplorersByMission(explorers,"node"))
 
-// Part4: Get the explorer's usernames in Node
-const explorersInNodeToGetUsernames = explorers.filter((explorer) => explorer.mission == "node");
-//const usernamesInNode = explorersInNodeToGetUsernames.map((explorer) => explorer.githubUsername);
-//console.log(usernamesInNode)
+console.log('Obtención de nombres')
+console.log(explorerService.getExplorersUsernamesByMission(explorers,"node"))
 
 // DEAD CODE: Part 5,6,7, please remove this and go to Part 8!
 
