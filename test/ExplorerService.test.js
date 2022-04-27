@@ -14,4 +14,4 @@ describe("Prueba de unidad de para ExplorerService", () => {
         const explorers = JSONReader.readJsonFile('./data/explorers.json')
         expect(ExplorerService.getExplorersUsernamesByMission(explorers,"node")).toContain("ajolonauta14");
     });
-  }) 
+}) 
