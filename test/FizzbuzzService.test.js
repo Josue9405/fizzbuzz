@@ -14,7 +14,7 @@ describe("Prueba de unidad de para ExplorerService", () => {
     test('3) Explorer con score 5', () => {
         let explorer = {name: "Explorer5", score: 5}
         explorer = FizzbuzService.applyValidationInExplorer(explorer)
-        expect(explorer.trick).toBe("TULIO");
+        expect(explorer.trick).toBe("BUZZ");
     });
     test('4) Explorer con score 15', () => {
         let explorer = {name: "Explorer15", score: 15}
