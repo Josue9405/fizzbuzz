@@ -1,5 +1,5 @@
-const fs = require("./app/utils/JSONReader");
-const explorerService = require("./app/services/ExplorerService")
+const fs = require("./lib/utils/JSONReader");
+const explorerService = require("./lib/services/ExplorerService")
 
 const explorers = fs.readJsonFile("./data/explorers.json")
 
