@@ -1,5 +1,5 @@
-const JSONReader = require('../lib/utils/JSONReader')
-const ExplorerService = require('../lib/services/ExplorerService')
+const JSONReader = require('../../lib/utils/JSONReader')
+const ExplorerService = require('../../lib/services/ExplorerService')
 
 describe("Prueba de unidad de para ExplorerService", () => {
     test('1) Leer la lista completa de Explorers', () => {

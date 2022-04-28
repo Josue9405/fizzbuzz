@@ -1,4 +1,4 @@
-const ExplorerController = require('../lib/controllers/ExplorerController')
+const ExplorerController = require('../../lib/controllers/ExplorerController')
 
 describe("Prueba de unidad de para ExplorerController", () => {
     test('1) Obtener explorers por misión', () => {
