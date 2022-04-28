@@ -5,8 +5,6 @@ durante el curso de LaunchX impartido por Innovaccion Virtual y Microsoft.
 
 <!-- CONSTRUIDO CON -->
 ## Construido con
-
-Componentes:
 * JavaScript
 * Node
 * Jest
