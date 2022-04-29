@@ -8,7 +8,7 @@ describe("Prueba de unidad de para ExplorerService", () => {
     });
     test("2) Obtener explorers que sean parte de Node", () => {
         const explorers = JSONReader.readJsonFile("./test/data/explorers_3.json");
-        expect(ExplorerService.getAmountOfExplorersByMission(explorers,"node")).toBe(10);
+        expect(ExplorerService.getAmountOfExplorersByMission(explorers,"node")).toBe(0);
     });
     test("3) Obtener explorers que sean parte de Node", () => {
         const explorers = JSONReader.readJsonFile("./data/explorers.json");
